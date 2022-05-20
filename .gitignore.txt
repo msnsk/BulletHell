@@ -1,0 +1,13 @@
+# Godot-specific ignores
+End/.import/
+End/export.cfg
+End/export_presets.cfg
+Start/.import/
+Start/export.cfg
+Start/export_presets.cfg
+
+# Mono-specific ignores
+End/.mono/
+End/data_*/
+Start/.mono/
+Start/data_*/
