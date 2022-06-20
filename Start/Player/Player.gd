@@ -43,7 +43,7 @@ func get_input():
 
 
 func _on_HitBox_area_entered(area):
-	if area.is_in_group("Bullets"):
+	if area.is_in_group("Enemies") or area.is_in_group("Bullets"):
 		print(area, " hit Player")
 		anim_player.play("hit")
 		if life > 1:

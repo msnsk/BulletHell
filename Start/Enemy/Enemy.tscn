@@ -107,6 +107,8 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
+interval = 0.5
+spawning_count = 10
 
 [node name="Sprite" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0.266667 )
